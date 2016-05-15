@@ -1,5 +1,5 @@
 $navbar-default-bg: #cee5e5;
-$border-top-default: 1px solid #eaeaea;
+$border-top-default: 1px solid #dedede;
 
 @import "bootstrap";
 @import "bootstrap-sprockets";
@@ -54,6 +54,11 @@ body {
 
 .lg-bg {
   background-color: #eee;
+}
+
+.article-meta-details {
+  border-top: $border-top-default;
+  margin-top: 15px;
 }
 
 .article-actions {
