@@ -27,6 +27,20 @@ body {
   text-align:center;
 }
 
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+.form-horizontal .checkbox-inline {
+  margin-top: -3px !important;
+}
+
 .jumbotron {
   background-image: asset-url("littlehouse.jpg");
   background-size:cover;
