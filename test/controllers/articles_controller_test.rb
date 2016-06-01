@@ -22,10 +22,10 @@ class ArticlesControllerTest < ActionController::TestCase
 	# 	assert_response :success
 	# end
 
-	# test "should redirect create when admin not logged in" do
-	# 	assert_no_difference 'Article.count' do
-	# 		post :create, article: {title: "Real Madrid", description: "won UCL"}
-	# 	end
-	# 	assert_redirected_to articles_path
-	# end
+	test "should redirect create when admin not logged in" do
+		assert_no_difference 'Article.count' do
+			post :create, article: {title: "Real Madrid", description: "won UCL"}
+		end
+		assert_redirected_to root_path
+	end
 end
