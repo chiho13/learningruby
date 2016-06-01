@@ -1,17 +1,4 @@
-$navbar-default-bg: #cee5e5;
-$border-top-default: 1px solid #dedede;
-
-@import "bootstrap";
-@import "bootstrap-sprockets";
-
-
-body {
-  font-family: 'Lato';
-}
-.navbar {
-  border-radius: 0;
-}
-
+@import "components/variables";
 #logo {
   float:left;
   font-size: 1.7em;
@@ -109,28 +96,4 @@ padding-bottom: 15px;
   list-style:none;
   padding-left:0;
 
-}
-
-footer {
-  margin-top: 54px;
-  padding-top: 5px;
-  border-top: $border-top-default;
-  color: #777;
-}
-footer a:hover {
-  color :#222;
-}
-
-footer small {
-  float:left;
-}
-
-footer ul {
-  float:right;
-  list-style:none;
-}
-
-footer ul li {
-  float:left;
-  margin-left:15px;
 }
